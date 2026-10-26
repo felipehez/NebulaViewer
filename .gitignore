@@ -1,0 +1,27 @@
+# Whitelist: this folder is also a working directory with renders, bakes and video-production scripts that
+# are not part of the public repo. Everything is ignored except the files listed below; add new ones here.
+/*
+
+!/.gitignore
+!/README.md
+!/README.es.md
+!/LICENSE
+!/requirements.txt
+!/NebulaViewer.bat
+
+!/viewer.py
+!/ui.py
+!/sim.py
+!/nebula3d.py
+!/crop.py
+!/timeline.py
+!/render.py
+!/recorder.py
+!/bake.py
+!/bench.py
+
+!/blender/
+!/docs/
+
+__pycache__/
+*.pyc
